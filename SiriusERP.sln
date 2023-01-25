@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirius.ERP.Web", "Sirius.ERP.Web\Sirius.ERP.Web.csproj", "{DDFF256C-706D-4B87-B367-7678D5D8147C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirius.ERP.Api", "Sirius.ERP.Api\Sirius.ERP.Api.csproj", "{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{F9AE8212-E1F6-42D2-B235-837491277D13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{79682DA8-E622-42C9-9419-782E26BEB33F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Desenvolvimento|Any CPU = Desenvolvimento|Any CPU
+		Homologacao|Any CPU = Homologacao|Any CPU
+		Producao|Any CPU = Producao|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Desenvolvimento|Any CPU.ActiveCfg = Desenvolvimento|Any CPU
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Desenvolvimento|Any CPU.Build.0 = Desenvolvimento|Any CPU
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Homologacao|Any CPU.ActiveCfg = Homologacao|Any CPU
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Homologacao|Any CPU.Build.0 = Homologacao|Any CPU
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Producao|Any CPU.ActiveCfg = Producao|Any CPU
+		{DDFF256C-706D-4B87-B367-7678D5D8147C}.Producao|Any CPU.Build.0 = Producao|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Desenvolvimento|Any CPU.ActiveCfg = Desenvolvimento|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Desenvolvimento|Any CPU.Build.0 = Desenvolvimento|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Homologacao|Any CPU.ActiveCfg = Homologacao|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Homologacao|Any CPU.Build.0 = Homologacao|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Producao|Any CPU.ActiveCfg = Producao|Any CPU
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC}.Producao|Any CPU.Build.0 = Producao|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDFF256C-706D-4B87-B367-7678D5D8147C} = {F9AE8212-E1F6-42D2-B235-837491277D13}
+		{CF1525F1-29FB-4A0C-96B7-11FE0223D4BC} = {79682DA8-E622-42C9-9419-782E26BEB33F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {531FE2F1-40A2-4005-9BC8-47B2CCAA2645}
+	EndGlobalSection
+EndGlobal
